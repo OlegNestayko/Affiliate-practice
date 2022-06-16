@@ -17,7 +17,7 @@ body {
   font-style: var(--main-fs);
   font-size: var(--main-fz);
   color: var(--main-color);
-  max-width: 1150px;
+  /* width: 1150px; */
   margin: 0 auto;
 }
 /* Common Styles */
@@ -76,6 +76,8 @@ body {
 /* Main Content */
 main {
   background-color: var(--main-bg-color);
+  width: 1150px;
+  margin: 0 auto;
 }
 
 /* Hero section */
@@ -170,7 +172,7 @@ main {
   display: flex;
   align-items: center;
   height: 115px;
-  background-image: url('/img/main/bgc.png');
+  background-image: url('../img/main/bgc.png');
   margin-bottom: 100px;
 }
 
@@ -238,10 +240,78 @@ main {
 }
 /* Sign Section */
 .sign {
+  display: flex;
   height: 425px;
-  background-image: url('/img/main/bcgi.png');
+  background-image: url('../img/main/bcgi.png');
   margin-bottom: 120px;
 }
 .sign-img {
   margin: 50px 0px 50px 50px;
+}
+.sign-wrap {
+  width: 500px;
+  height: 325px;
+  margin: 50px;
+}
+.sign-row {
+  display: flex;
+  align-items: center;
+}
+
+.sign-title {
+  font-family: 'Bitter';
+  font-size: 30px;
+  line-height: 1.17;
+  margin-left: 10px;
+}
+.sign-text {
+  font-size: 18px;
+  line-height: 1.33;
+  margin-top: 30px;
+}
+.sign-input {
+  width: 500px;
+  height: 50px;
+
+  font-size: 12px;
+  line-height: 1.67;
+
+  color: #536d7a;
+  padding-left: 15px;
+  margin-bottom: 30px;
+  border: 1px solid #aabcc5;
+  border-radius: 5px;
+}
+.sign-btn {
+  width: 82px;
+  height: 50px;
+
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.67;
+
+  text-align: center;
+
+  background: #ffc728;
+  border-radius: 5px;
+  padding: 15px 19px;
+}
+
+.sign-link {
+  font-size: 12px;
+  line-height: 1.67;
+
+  color: #536d7a;
+
+  margin-left: 10px;
+}
+
+/* Footer */
+.footer {
+  height: 588px;
+  background-color: #f7f9fa;
+}
+.foot {
+  width: 1150px;
+  margin: 0 auto;
 }
